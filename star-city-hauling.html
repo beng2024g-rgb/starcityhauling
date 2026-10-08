@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Star City Hauling | Junk Removal in Lincoln, NE</title>
+<meta name="description" content="Star City Hauling: fast, affordable junk and furniture removal in Lincoln, Nebraska. Text us photos for a firm upfront price. Same-day service.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23D00000'/%3E%3Ctext x='32' y='44' font-size='36' text-anchor='middle' fill='white' font-family='Arial Black, sans-serif' font-weight='900'%3ES%3C/text%3E%3C/svg%3E">
+<style>
+  :root{
+    --red:#D00000;
+    --red-dark:#a80000;
+    --ink:#191919;
+    --gray:#5c5c5c;
+    --bg:#faf8f5;
+    --card:#ffffff;
+    --line:#e8e2d9;
+    --radius:14px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 20px}
+  header.top{position:sticky;top:0;z-index:50;background:rgba(250,248,245,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
+  .brand .mark{width:40px;height:40px;border-radius:10px;background:var(--red);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:22px;font-family:"Arial Black",Arial,sans-serif}
+  .brand .name{font-weight:900;letter-spacing:.5px;font-size:19px}
+  .brand .name small{display:block;font-weight:600;font-size:11px;letter-spacing:2px;color:var(--gray)}
+  .btn{display:inline-block;padding:14px 26px;border-radius:999px;font-weight:800;text-decoration:none;border:none;cursor:pointer;font-size:16px;transition:transform .12s ease,box-shadow .12s ease}
+  .btn:active{transform:scale(.97)}
+  .btn-red{background:var(--red);color:#fff;box-shadow:0 6px 18px rgba(208,0,0,.28)}
+  .btn-red:hover{background:var(--red-dark)}
+  .btn-dark{background:var(--ink);color:#fff}
+  .btn-ghost{background:#fff;color:var(--ink);border:2px solid var(--line)}
+  .btn-sm{padding:10px 20px;font-size:15px}
+  .hero{padding:64px 0 48px;text-align:center}
+  .eyebrow{display:inline-block;background:var(--ink);color:#fff;font-size:12px;font-weight:800;letter-spacing:2px;padding:7px 16px;border-radius:999px;margin-bottom:20px}
+  .hero h1{font-size:clamp(38px,7vw,64px);line-height:1.05;font-weight:900;letter-spacing:-1px;margin-bottom:16px}
+  .hero h1 span{color:var(--red)}
+  .hero p.lead{font-size:19px;color:var(--gray);max-width:640px;margin:0 auto 28px}
+  .cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .trust{display:flex;gap:22px;justify-content:center;flex-wrap:wrap;margin-top:30px;font-size:14px;font-weight:700;color:var(--gray)}
+  .trust i{font-style:normal;color:var(--red);margin-right:6px}
+  section{padding:56px 0}
+  .sec-head{text-align:center;max-width:640px;margin:0 auto 36px}
+  .sec-head h2{font-size:clamp(28px,4.5vw,40px);font-weight:900;letter-spacing:-.5px;margin-bottom:10px}
+  .sec-head p{color:var(--gray);font-size:17px}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px 24px;text-align:center}
+  .step .num{width:52px;height:52px;border-radius:50%;background:var(--red);color:#fff;font-weight:900;font-size:22px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px}
+  .step h3{font-size:19px;margin-bottom:8px}
+  .step p{color:var(--gray);font-size:15px}
+  .pricing{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+  .price-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:30px 24px;text-align:center;position:relative}
+  .price-card.hot{border:2px solid var(--red);box-shadow:0 10px 30px rgba(208,0,0,.12)}
+  .price-card .tag{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--red);color:#fff;font-size:11px;font-weight:800;letter-spacing:1.5px;padding:4px 14px;border-radius:999px}
+  .price-card h3{font-size:17px;margin-bottom:6px}
+  .price-card .amt{font-size:40px;font-weight:900;margin-bottom:6px}
+  .price-card .amt span{font-size:15px;font-weight:600;color:var(--gray)}
+  .price-card p{color:var(--gray);font-size:14px}
+  .fine{text-align:center;color:var(--gray);font-size:14px;margin-top:20px;max-width:640px;margin-left:auto;margin-right:auto}
+  .haul-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+  .haul-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;font-weight:700;font-size:16px;display:flex;align-items:center;gap:12px}
+  .haul-item i{font-style:normal;font-size:22px}
+  .about{display:grid;grid-template-columns:1fr;gap:24px;background:var(--ink);color:#fff;border-radius:20px;padding:44px 36px}
+  .about h2{font-size:clamp(26px,4vw,34px);font-weight:900;margin-bottom:12px}
+  .about h2 span{color:#ff5a5a}
+  .about p{color:#cfcfcf;font-size:17px;max-width:640px}
+  .faq{max-width:720px;margin:0 auto}
+  .faq details{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 22px;margin-bottom:12px}
+  .faq summary{font-weight:800;font-size:17px;cursor:pointer;list-style:none}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq details p{color:var(--gray);margin-top:10px;font-size:15px}
+  .contact-box{background:var(--red);color:#fff;border-radius:20px;padding:48px 32px;text-align:center}
+  .contact-box h2{font-size:clamp(28px,5vw,42px);font-weight:900;margin-bottom:12px}
+  .contact-box p{font-size:18px;margin-bottom:26px;opacity:.92}
+  .contact-box .cta-row .btn-ghost{border-color:rgba(255,255,255,.5);color:#fff;background:transparent}
+  .contact-box .btn-dark{background:#fff;color:var(--red)}
+  footer{padding:32px 0 48px;text-align:center;color:var(--gray);font-size:14px}
+  footer .fbrand{font-weight:900;color:var(--ink);font-size:17px;margin-bottom:6px}
+  @media(max-width:560px){
+    .hero{padding:44px 0 36px}
+    section{padding:40px 0}
+    .about{padding:32px 24px}
+    .contact-box{padding:36px 22px}
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="#top">
+      <span class="mark">H</span>
+      <span class="name">STAR CITY HAULING<small>JUNK REMOVAL</small></span>
+    </a>
+    <a class="btn btn-red btn-sm" href="tel:+14029996373">Call Now</a>
+  </div>
+</header>
+
+<div class="hero wrap" id="top">
+  <span class="eyebrow">LINCOLN, NEBRASKA</span>
+  <h1>Junk gone <span>today.</span></h1>
+  <p class="lead">Furniture, cleanouts, and junk removal in Lincoln. Text us photos, get a firm upfront price, and we haul it away. Same-day service available.</p>
+  <div class="cta-row">
+    <a class="btn btn-red" href="tel:+14029996373">Call 402-999-6373</a>
+    <a class="btn btn-dark" href="sms:+14029996373">Text Us Photos</a>
+  </div>
+  <div class="trust">
+    <span><i>✓</i>Locally owned</span>
+    <span><i>✓</i>Same-day service</span>
+    <span><i>✓</i>Upfront pricing</span>
+  </div>
+</div>
+
+<section id="how">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>How it works</h2>
+      <p>Three steps. No surprises.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="num">1</div>
+        <h3>Text us photos</h3>
+        <p>Snap a few pictures of what you need gone and send them to 402-999-6373.</p>
+      </div>
+      <div class="step">
+        <div class="num">2</div>
+        <h3>Get a firm price</h3>
+        <p>We quote you an exact price before we come out. The price we say is the price you pay.</p>
+      </div>
+      <div class="step">
+        <div class="num">3</div>
+        <h3>We haul it away</h3>
+        <p>We load everything, sweep up, and haul it off. You pay when the job is done.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Simple pricing</h2>
+      <p>Based on how much space your junk takes up. Quoted from your photos.</p>
+    </div>
+    <div class="pricing">
+      <div class="price-card">
+        <h3>Minimum pickup</h3>
+        <div class="amt">$75</div>
+        <p>Single items: a chair, a TV, a small pile.</p>
+      </div>
+      <div class="price-card">
+        <h3>Quarter load</h3>
+        <div class="amt">$249</div>
+        <p>A few pieces of furniture or a small cleanout.</p>
+      </div>
+      <div class="price-card hot">
+        <span class="tag">MOST POPULAR</span>
+        <h3>Half load</h3>
+        <div class="amt">$399</div>
+        <p>Garage cleanout, full bedroom set, big pile.</p>
+      </div>
+      <div class="price-card">
+        <h3>Full load</h3>
+        <div class="amt">$595</div>
+        <p>Whole garage, estate cleanout, renovation debris.</p>
+      </div>
+    </div>
+    <p class="fine">Prices include labor, hauling, and disposal. Special items like tires, pianos, and hot tubs are quoted individually. Payment due on completion: cash, Venmo, or Zelle.</p>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>What we haul</h2>
+      <p>If it fits in the truck, we can take it.</p>
+    </div>
+    <div class="haul-grid">
+      <div class="haul-item"><i>🛋️</i>Furniture</div>
+      <div class="haul-item"><i>🛏️</i>Mattresses</div>
+      <div class="haul-item"><i>❄️</i>Appliances</div>
+      <div class="haul-item"><i>📦</i>Garage cleanouts</div>
+      <div class="haul-item"><i>🌿</i>Yard debris</div>
+      <div class="haul-item"><i>🏠</i>Estate cleanouts</div>
+      <div class="haul-item"><i>🖥️</i>Office furniture</div>
+      <div class="haul-item"><i>🏗️</i>Renovation debris</div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="about">
+      <div>
+        <h2>Lincoln owned. <span>Star City proud.</span></h2>
+        <p>I'm Ben, a UNL student and lifelong Nebraskan. I started Star City Hauling because getting rid of junk shouldn't be complicated or overpriced. You text photos, I give you a straight price, and I show up and haul it. That's the whole business.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Questions</h2>
+    </div>
+    <div class="faq">
+      <details>
+        <summary>How fast can you come out?</summary>
+        <p>Usually same day or next day. Text photos to 402-999-6373 and we'll find a time that works.</p>
+      </details>
+      <details>
+        <summary>Do I have to move everything to the curb?</summary>
+        <p>No. We haul from wherever it sits: garage, basement, backyard, upstairs. You don't lift a thing.</p>
+      </details>
+      <details>
+        <summary>How do I pay?</summary>
+        <p>Cash, Venmo, or Zelle, due when the job is done. No deposits, no prepay.</p>
+      </details>
+      <details>
+        <summary>Is there anything you won't take?</summary>
+        <p>We can't take hazardous materials like paint, chemicals, or fuel. Tires, pianos, and hot tubs need an individual quote. Everything else, just ask.</p>
+      </details>
+      <details>
+        <summary>Where do you serve?</summary>
+        <p>Lincoln and surrounding areas. If you're nearby and unsure, text us and ask.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="contact-box">
+      <h2>Ready when you are.</h2>
+      <p>Text photos for a firm price, or call and we'll talk it through.</p>
+      <div class="cta-row">
+        <a class="btn btn-dark" href="tel:+14029996373">Call 402-999-6373</a>
+        <a class="btn btn-ghost" href="sms:+14029996373">Text Us Photos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fbrand">STAR CITY HAULING</div>
+    <div>Junk removal in Lincoln, Nebraska<br>402-999-6373</div>
+  </div>
+</footer>
+
+</body>
+</html>
